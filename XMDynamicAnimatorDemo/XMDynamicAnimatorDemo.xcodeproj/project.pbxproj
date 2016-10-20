@@ -12,6 +12,13 @@
 		9FD534821DB84931001DB98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD534801DB84931001DB98B /* Main.storyboard */; };
 		9FD534841DB84931001DB98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD534831DB84931001DB98B /* Assets.xcassets */; };
 		9FD534871DB84931001DB98B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD534851DB84931001DB98B /* LaunchScreen.storyboard */; };
+		9FD534951DB84EC3001DB98B /* AttachmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5348E1DB84EC3001DB98B /* AttachmentViewController.swift */; };
+		9FD534961DB84EC3001DB98B /* CollisionBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5348F1DB84EC3001DB98B /* CollisionBehaviorViewController.swift */; };
+		9FD534971DB84EC3001DB98B /* DynamicItemBehaviorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD534901DB84EC3001DB98B /* DynamicItemBehaviorController.swift */; };
+		9FD534981DB84EC3001DB98B /* GravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD534911DB84EC3001DB98B /* GravityViewController.swift */; };
+		9FD534991DB84EC3001DB98B /* PushBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD534921DB84EC3001DB98B /* PushBehaviorViewController.swift */; };
+		9FD5349A1DB84EC3001DB98B /* SnapBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD534931DB84EC3001DB98B /* SnapBehaviorViewController.swift */; };
+		9FD5349B1DB84EC3001DB98B /* XMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD534941DB84EC3001DB98B /* XMBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		9FD534831DB84931001DB98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD534861DB84931001DB98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FD534881DB84931001DB98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD5348E1DB84EC3001DB98B /* AttachmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentViewController.swift; sourceTree = "<group>"; };
+		9FD5348F1DB84EC3001DB98B /* CollisionBehaviorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionBehaviorViewController.swift; sourceTree = "<group>"; };
+		9FD534901DB84EC3001DB98B /* DynamicItemBehaviorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicItemBehaviorController.swift; sourceTree = "<group>"; };
+		9FD534911DB84EC3001DB98B /* GravityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityViewController.swift; sourceTree = "<group>"; };
+		9FD534921DB84EC3001DB98B /* PushBehaviorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushBehaviorViewController.swift; sourceTree = "<group>"; };
+		9FD534931DB84EC3001DB98B /* SnapBehaviorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapBehaviorViewController.swift; sourceTree = "<group>"; };
+		9FD534941DB84EC3001DB98B /* XMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,13 @@
 			children = (
 				9FD5347C1DB84931001DB98B /* AppDelegate.swift */,
 				9FD5347E1DB84931001DB98B /* ViewController.swift */,
+				9FD5348E1DB84EC3001DB98B /* AttachmentViewController.swift */,
+				9FD5348F1DB84EC3001DB98B /* CollisionBehaviorViewController.swift */,
+				9FD534901DB84EC3001DB98B /* DynamicItemBehaviorController.swift */,
+				9FD534911DB84EC3001DB98B /* GravityViewController.swift */,
+				9FD534921DB84EC3001DB98B /* PushBehaviorViewController.swift */,
+				9FD534931DB84EC3001DB98B /* SnapBehaviorViewController.swift */,
+				9FD534941DB84EC3001DB98B /* XMBaseViewController.swift */,
 				9FD534801DB84931001DB98B /* Main.storyboard */,
 				9FD534831DB84931001DB98B /* Assets.xcassets */,
 				9FD534851DB84931001DB98B /* LaunchScreen.storyboard */,
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD5349A1DB84EC3001DB98B /* SnapBehaviorViewController.swift in Sources */,
+				9FD534991DB84EC3001DB98B /* PushBehaviorViewController.swift in Sources */,
+				9FD534951DB84EC3001DB98B /* AttachmentViewController.swift in Sources */,
 				9FD5347F1DB84931001DB98B /* ViewController.swift in Sources */,
 				9FD5347D1DB84931001DB98B /* AppDelegate.swift in Sources */,
+				9FD534971DB84EC3001DB98B /* DynamicItemBehaviorController.swift in Sources */,
+				9FD5349B1DB84EC3001DB98B /* XMBaseViewController.swift in Sources */,
+				9FD534961DB84EC3001DB98B /* CollisionBehaviorViewController.swift in Sources */,
+				9FD534981DB84EC3001DB98B /* GravityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +330,7 @@
 				9FD5348D1DB84931001DB98B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
