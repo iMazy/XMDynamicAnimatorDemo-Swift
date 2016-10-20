@@ -19,6 +19,12 @@
 		9FD534991DB84EC3001DB98B /* PushBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD534921DB84EC3001DB98B /* PushBehaviorViewController.swift */; };
 		9FD5349A1DB84EC3001DB98B /* SnapBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD534931DB84EC3001DB98B /* SnapBehaviorViewController.swift */; };
 		9FD5349B1DB84EC3001DB98B /* XMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD534941DB84EC3001DB98B /* XMBaseViewController.swift */; };
+		9FD534A11DB853B1001DB98B /* 连接.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5349D1DB853B1001DB98B /* 连接.gif */; };
+		9FD534A21DB853B1001DB98B /* 重力.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5349E1DB853B1001DB98B /* 重力.gif */; };
+		9FD534A31DB853B1001DB98B /* 弹簧.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5349F1DB853B1001DB98B /* 弹簧.gif */; };
+		9FD534A41DB853B1001DB98B /* 吸附.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FD534A01DB853B1001DB98B /* 吸附.gif */; };
+		9FD534A71DB853B6001DB98B /* 碰撞.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FD534A51DB853B6001DB98B /* 碰撞.gif */; };
+		9FD534A81DB853B6001DB98B /* 推动.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9FD534A61DB853B6001DB98B /* 推动.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,12 @@
 		9FD534921DB84EC3001DB98B /* PushBehaviorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushBehaviorViewController.swift; sourceTree = "<group>"; };
 		9FD534931DB84EC3001DB98B /* SnapBehaviorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapBehaviorViewController.swift; sourceTree = "<group>"; };
 		9FD534941DB84EC3001DB98B /* XMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMBaseViewController.swift; sourceTree = "<group>"; };
+		9FD5349D1DB853B1001DB98B /* 连接.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "连接.gif"; sourceTree = "<group>"; };
+		9FD5349E1DB853B1001DB98B /* 重力.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "重力.gif"; sourceTree = "<group>"; };
+		9FD5349F1DB853B1001DB98B /* 弹簧.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "弹簧.gif"; sourceTree = "<group>"; };
+		9FD534A01DB853B1001DB98B /* 吸附.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "吸附.gif"; sourceTree = "<group>"; };
+		9FD534A51DB853B6001DB98B /* 碰撞.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "碰撞.gif"; sourceTree = "<group>"; };
+		9FD534A61DB853B6001DB98B /* 推动.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "推动.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +90,25 @@
 				9FD534931DB84EC3001DB98B /* SnapBehaviorViewController.swift */,
 				9FD534941DB84EC3001DB98B /* XMBaseViewController.swift */,
 				9FD534801DB84931001DB98B /* Main.storyboard */,
+				9FD5349C1DB853A5001DB98B /* Sources */,
 				9FD534831DB84931001DB98B /* Assets.xcassets */,
 				9FD534851DB84931001DB98B /* LaunchScreen.storyboard */,
 				9FD534881DB84931001DB98B /* Info.plist */,
 			);
 			path = XMDynamicAnimatorDemo;
+			sourceTree = "<group>";
+		};
+		9FD5349C1DB853A5001DB98B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5349D1DB853B1001DB98B /* 连接.gif */,
+				9FD5349E1DB853B1001DB98B /* 重力.gif */,
+				9FD5349F1DB853B1001DB98B /* 弹簧.gif */,
+				9FD534A01DB853B1001DB98B /* 吸附.gif */,
+				9FD534A51DB853B6001DB98B /* 碰撞.gif */,
+				9FD534A61DB853B6001DB98B /* 推动.gif */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +171,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD534A71DB853B6001DB98B /* 碰撞.gif in Resources */,
+				9FD534A21DB853B1001DB98B /* 重力.gif in Resources */,
+				9FD534A41DB853B1001DB98B /* 吸附.gif in Resources */,
 				9FD534871DB84931001DB98B /* LaunchScreen.storyboard in Resources */,
+				9FD534A11DB853B1001DB98B /* 连接.gif in Resources */,
 				9FD534841DB84931001DB98B /* Assets.xcassets in Resources */,
+				9FD534A81DB853B6001DB98B /* 推动.gif in Resources */,
+				9FD534A31DB853B1001DB98B /* 弹簧.gif in Resources */,
 				9FD534821DB84931001DB98B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
